@@ -1,7 +1,6 @@
-import './Body.css';
-import Card from './Card'
+import './ItemListContainer.css';
 
-function Body() {
+function ItemListContainer() {
   return (
     <section className="cuerpo">
       <h2>CATÁLOGO DE PRODUCTOS
@@ -15,4 +14,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default ItemListContainer;

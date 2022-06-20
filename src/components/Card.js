@@ -1,11 +1,11 @@
 import './Card.css';
 
-function Card() {
+function Card({product, price, img}) {
   return (
     <div className='card'>
-       <h4>Producto imagen</h4>
-       <p>Descripción</p>
-       <p>precio</p>
+       <img src={img} />
+       <p>{product}</p>
+       <h3>{price}</h3>
     </div>
   );
 }
