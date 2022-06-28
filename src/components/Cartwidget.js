@@ -1,11 +1,12 @@
 import './Cartwidget.css';
+import imgCart from "../imagenes/carrito.png"
 
 function Cartwidget() {
   return (
     <div className='cart'>
-        <a className='carro' src="#">
-            <img src="../imagenes/carrito.png" alt="Foto del carrito" />
-        </a>
+        <img src={imgCart} alt="Foto del carrito" />
+        {/* <a className='carro' src="{imgCart}"> */}  
+        {/* </a> */}
     </div>   
   );
 }
